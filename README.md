@@ -24,7 +24,7 @@
 | **Research Highlight** |
 | :---: |
 | ATLAS: The Physics of Information |
-| [**Read more →**](https://www.uor.foundation/theory) |
+| [**Read more →**](https://github.com/UOR-Foundation/research/tree/main/atlas-embeddings) |
 
 </div>
 
