@@ -42,7 +42,7 @@ The UOR Foundation is dedicated to advancing research, technology, and community
 [Visit the UOR Platform](https://www.uor.foundation/)
 
 **Want to get involved?**  
-[Run the UOR Server](https://www.uor.foundation/) or [Join our Community](https://discord.gg/ZwuZaNyuve)
+[Join your Community](https://discord.gg/ZwuZaNyuve)
 
 **Resources**
 - Documentation (coming soon)
