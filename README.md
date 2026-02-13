@@ -44,10 +44,10 @@ The UOR Foundation is dedicated to advancing research, technology, and community
 **Want to get involved?**  
 [Run the UOR Server](https://www.uor.foundation/) or [Join our Community](https://discord.gg/ZwuZaNyuve)
 
-**SDKs & Resources**
-- [Documentation](https://www.uor.foundation/)
+**Resources**
+- Documentation (coming soon)
 - [Community](https://discord.gg/ZwuZaNyuve)
-- [Blog](https://www.uor.foundation/blog)
+- [Archive](https://github.com/The-UOR-Foundation-Archive)
 
 ---
 
