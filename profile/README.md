@@ -1,5 +1,6 @@
+<!-- Link preview: set org avatar to profile/UOR_social_preview.png and org description to "Your universal coordinate system for information." (GitHub → Settings → Profile) -->
 <p align="center">
-  <img src="The_UOR_Foundation.png" alt="The UOR Foundation" width="100%">
+  <a href="https://github.com/UOR-Foundation"><img src="The_UOR_Foundation.png" alt="The UOR Foundation" width="100%"></a>
 </p>
 
 <p align="center">
