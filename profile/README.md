@@ -32,14 +32,13 @@
 
 **The UOR Foundation**
 
-The UOR Foundation is dedicated to advancing research, technology, and community—building tools and frameworks that create lasting impact.
+The UOR Foundation is dedicated to developing universal data standards for semantic web, open science and frontier technologies.
 
 ---
 
 **Getting Started**
 
-**Need an API key?**  
-[Visit the UOR Platform](https://www.uor.foundation/)
+**Coming soon.**
 
 **Want to get involved?**  
 [Join your Community](https://discord.gg/ZwuZaNyuve)
