@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.uor.foundation/">About us</a> · <a href="https://discord.gg/ZwuZaNyuve">Join us</a> · <a href="https://github.com/UOR-Foundation/research">Build with us</a>
+  <a href="https://www.uor.foundation/">About us</a> · <a href="https://discord.gg/ZwuZaNyuve">Join us</a> · <a href="https://github.com/UOR-Foundation/prism">Build with us</a>
 </p>
 
 ---
