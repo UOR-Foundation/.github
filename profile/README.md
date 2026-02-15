@@ -39,7 +39,23 @@ The UOR Foundation is dedicated to developing universal data standards for seman
 
 **Getting Started**
 
-**Coming soon.**
+PRISM, developed by the UOR Foundation, is an open source, formal, machine readable framework for structuring, encoding, and mathematically verifying knowledge. It provides a universal coordinate system for information, where structures are derived, encoded, and validated against explicit rules.
+
+At its core is the Universal Lossless Encoder, a canonical method for presenting arbitrary information on a finite topological space. Any dataset, model, or theory can be encoded into a finite structured form with well defined relations, enabling deterministic validation, structural consistency checks, and reproducible verification.
+
+**What it enables**
+- Canonical, lossless encoding of arbitrary information
+- Schema level and rule based mathematical verification
+- Reproducible, machine checkable structures
+- Cross domain interoperability through a shared formal language
+
+**How to start**
+1. Visit the [PRISM repository](https://github.com/UOR-Foundation/prism)
+2. Read the README to understand the architecture and verification model.
+3. Review the schema and graph definitions to see how structures are formally derived and constrained.
+4. Fork the repository and begin encoding or validating your own models.
+
+*Build with it. Verify with it. Extend it.*
 
 **Want to get involved?**  
 [Join your Community](https://discord.gg/ZwuZaNyuve)
