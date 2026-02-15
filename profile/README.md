@@ -35,6 +35,9 @@
 
 The UOR Foundation is dedicated to developing universal data standards for semantic web, open science and frontier technologies.
 
+*"The book of nature is written in the language of mathematics."*  
+— Galileo Galilei
+
 ---
 
 **Getting Started**
