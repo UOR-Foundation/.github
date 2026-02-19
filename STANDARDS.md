@@ -1,38 +1,40 @@
-# UOR Foundation — Repository and Contribution Standards
+# Repository Standards
 
-This document defines norms for all repositories in the [UOR-Foundation](https://github.com/UOR-Foundation) organization so that naming, versioning, and structure stay consistent.
+This document summarises the naming, versioning, and tagging conventions enforced across all UOR Foundation repositories. For the complete governance framework, see [`governance/GOVERNANCE.md`](governance/GOVERNANCE.md).
 
-## Repository naming
+## Naming Conventions
 
-- **Format:** Lowercase, hyphenated (e.g. `atlas-embeddings`, `research`, `prism`).
-- **Avoid:** CamelCase, underscores, or spaces in repo names.
+- Repository names: all lowercase, hyphen-separated. Preferred: `uor-{domain}-{function}` (e.g., `uor-math-formalization`).
+- No version numbers in repo names (use tags).
+- Branch names: `{type}/{issue#}-{short-description}` (e.g., `feat/42-add-parser`).
+- Commit messages: [Conventional Commits v1.0.0](https://www.conventionalcommits.org/).
 
-## Rust crates (when applicable)
+## Versioning
 
-- **Package name** (in `Cargo.toml`): `kebab-case` (e.g. `atlas-embeddings`).
-- **Library name** (e.g. `[lib] name = "..."`): `snake_case` (e.g. `atlas_embeddings`).
+All Tier 1 and 2 repositories follow [Semantic Versioning 2.0.0](https://semver.org/):
 
-## License
+| Component | Increment When |
+|-----------|---------------|
+| **MAJOR** | Incompatible API changes or breaking changes |
+| **MINOR** | New backward-compatible functionality |
+| **PATCH** | Backward-compatible bug fixes |
 
-- **Default:** MIT unless a specific project states otherwise (e.g. in its README or LICENSE file).
-- Each repository should include a LICENSE file or clearly point to the org default.
+## Topic Tags
 
-## Where to contribute
+Every repository must carry the following GitHub topic tags:
 
-- **Research monorepo:** [UOR-Foundation/research](https://github.com/UOR-Foundation/research) is the canonical home for research projects (e.g. atlas-embeddings). Open issues and pull requests there; use the project subdirectory (e.g. `atlas-embeddings`) in titles or descriptions when relevant.
-- **Other repos** (e.g. `.github`, `prism`): Contribute via issues and PRs on the repository that owns the code.
+| Category | Required Tags | When |
+|----------|--------------|------|
+| Identity | `uor`, `uor-foundation` | Every repository |
+| Tier | `tier-1-core`, `tier-2-impl`, `tier-3-presentation`, `tier-4-experimental` | Exactly one per repo |
+| Domain | `math`, `cryptography`, `computation`, `visualisation`, `documentation`, `governance`, `protocol` | All that apply |
+| Technology | `rust`, `python`, `typescript`, `lean4`, `coq`, `latex` | Primary languages |
+| Status | `active`, `maintenance`, `deprecated`, `archived` | Exactly one per repo |
 
-## Versioning and releases
+## Required Files by Tier
 
-- **Libraries:** Use [Semantic Versioning](https://semver.org/) (e.g. `0.1.1`, `1.0.0`).
-- **Research monorepo:** Versioning is per project (each project has its own `Cargo.toml` or version file). The monorepo itself does not have a single global version.
-- **Releases:** Prefer per-project tags when cutting releases (e.g. `atlas-embeddings/v0.1.2` or `v0.1.2` for the sole crate in the repo). Document the tag format in the project’s README if it matters for tooling (e.g. CI).
+See [Governance Framework, Section 6.1](governance/GOVERNANCE.md#61-required-files) for the complete requirements matrix.
 
-## Branch strategy
+## Branch Protection
 
-- **Default branch:** `main`.
-- **Optional:** Use a `develop` branch for integration if the project maintains one; document it in the repo README or CONTRIBUTING.
-
----
-
-For the organization profile, tagline, and links, see the [organization profile](https://github.com/UOR-Foundation).
+See [Governance Framework, Section 6.2](governance/GOVERNANCE.md#62-branch-protection-rules) for tier-specific rules.
