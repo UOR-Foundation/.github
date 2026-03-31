@@ -43,15 +43,22 @@ We agree to restrict the following behaviors in our community. Instances, threat
 
 Tensions can occur between community members even when they are trying their best to collaborate. Not every conflict represents a code of conduct violation, and this Code of Conduct reinforces encouraged behaviors and norms that can help avoid conflicts and minimize harm.
 
-When an incident does occur, it is important to report it promptly. To report a possible violation, **[NOTE: describe your means of reporting here.]**
+When an incident does occur, it is important to report it promptly. To report a possible violation, use one of the following channels:
+
+- Email: [hi@uor.foundation](mailto:hi@uor.foundation)
+- Discord: Direct message UOR Foundation admins or moderators
+
+Reports are handled with care and confidentiality to the extent possible, consistent with a fair review process and community safety needs. All reports are reviewed in good faith and addressed as promptly as practical.
 
 Community Moderators take reports of violations seriously and will make every effort to respond in a timely manner. They will investigate all reports of code of conduct violations, reviewing messages, logs, and recordings, or interviewing witnesses and other participants. Community Moderators will keep investigation and enforcement actions as transparent as possible while prioritizing safety and confidentiality. In order to honor these values, enforcement actions are carried out in private with the involved parties, but communicating to the whole community may be part of a mutually agreed upon resolution.
 
 ## Addressing and Repairing Harm
 
-**[NOTE: The remedies and repairs outlined below are suggestions based on best practices in code of conduct enforcement. If your community has its own established enforcement process, be sure to edit this section to describe your own policies.]**
+This Code of Conduct is enforced under the authority of the UOR Foundation. Ultimate enforcement authority rests with the Board of Directors, which may delegate enforcement and incident response to admins, moderators, and designated committees.
 
 If an investigation by the Community Moderators finds that this Code of Conduct has been violated, the following enforcement ladder may be used to determine how best to repair harm, based on the incident's impact on the individuals involved and the community as a whole. Depending on the severity of a violation, lower rungs on the ladder may be skipped.
+
+Possible enforcement outcomes include warning, temporary restriction, suspension, and permanent removal.
 
 1. Warning
    - **Event:** A violation involving a single incident or series of incidents.
@@ -77,7 +84,17 @@ This enforcement ladder is intended as a guideline. It does not limit the abilit
 
 ## Scope
 
-This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public or other spaces. Examples of representing our community include using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+This Code of Conduct applies to all participants, contributors, and representatives of the UOR Foundation.
+
+This Code of Conduct applies within all UOR Foundation community spaces, including Discord, GitHub, events, and any other official UOR Foundation channels or activities. It also applies when an individual is officially representing the community in public or other spaces. Examples of representing our community include using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+
+## Governance Reference
+
+This Code of Conduct is part of UOR Foundation governance.
+
+Governance reference: [The UOR Foundation Bylaws](https://github.com/UOR-Foundation/.github/blob/main/governance/The_UOR_Foundation_Bylaws.pdf)
+
+In the event of conflict, the Bylaws and applicable law prevail.
 
 ## Attribution
 
