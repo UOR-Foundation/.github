@@ -30,7 +30,7 @@ Reference: [TOC process](./toc/README.md).
 
 Use governance roles from the framework:
 
-- Organisation Owner
+- Organization Owner
 - Repository Maintainer
 - Core Contributor
 - External Contributor

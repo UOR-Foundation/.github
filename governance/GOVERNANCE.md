@@ -1,4 +1,4 @@
-# UOR Foundation — GitHub Organisational Governance Framework
+# UOR Foundation - GitHub Organizational Governance Framework
 
 | Property | Value |
 |----------|-------|
@@ -6,7 +6,7 @@
 | Status | Approved for Implementation |
 | Classification | Public |
 | Effective Date | February 2026 |
-| Owner | UOR Foundation — Organisation Owners |
+| Owner | UOR Foundation — Organization Owners |
 | Review Cycle | Quarterly (next: May 2026) |
 | Location | `github.com/UOR-Foundation/.github/governance/` |
 | Supersedes | Version 1.0 (February 2026) |
@@ -54,18 +54,18 @@ The UOR Foundation is building a foundational substrate protocol for the open in
 
 ### 1.2 Scope
 
-This framework applies to all repositories, teams, workflows, and artefacts under `github.com/UOR-Foundation`. Specifically:
+This framework applies to all repositories, teams, workflows, and artifacts under `github.com/UOR-Foundation`. Specifically:
 
 - All public and private repositories, including forks and archives.
 - All contributors: members, external collaborators, and automated systems (CI bots, deployment agents).
-- All content: source code, formal proofs, documentation, configuration, media, and release artefacts.
+- All content: source code, formal proofs, documentation, configuration, media, and release artifacts.
 - All lifecycle stages: proposal, creation, active development, maintenance, deprecation, archival, and re-activation.
 
 ### 1.3 Audience
 
 This document is written for four audiences:
 
-- **Organisation Owners** — structural decisions and compliance enforcement.
+- **Organization Owners** — structural decisions and compliance enforcement.
 - **Repository Maintainers** — repository management and contribution review.
 - **Contributors** (internal and external) — understanding expectations when submitting work.
 - **Researchers and evaluators** — assessing the Foundation's governance maturity.
@@ -74,7 +74,7 @@ No prior knowledge of GitHub, version control, or software engineering is assume
 
 ### 1.4 Authority & Amendments
 
-This framework is maintained by the UOR Foundation's GitHub Organisation Owners. It is stored in the `.github` repository as the single source of truth. It is versioned using the same semantic versioning standard it mandates for all repositories ([Section 8](#8-version-management--releases)).
+This framework is maintained by the UOR Foundation's GitHub Organization Owners. It is stored in the `.github` repository as the single source of truth. It is versioned using the same semantic versioning standard it mandates for all repositories ([Section 8](#8-version-management--releases)).
 
 Amendments follow the change control procedure in [Section 7](#7-change-control--contribution-workflow) and the amendment process in [Section 15.3](#153-framework-amendment-process).
 
@@ -105,7 +105,7 @@ Amendments follow the change control procedure in [Section 7](#7-change-control-
 | Squash-and-Merge | Merge strategy combining all branch commits into one clean commit on `main`. |
 | Tag | A named reference to a specific commit, marking release points (e.g., `v1.0.0`). |
 | Tier | Classification level (1–4) determining governance obligations. See [Section 5](#5-repository-classification). |
-| Topic Tag | A keyword label applied to a GitHub repository for discoverability and categorisation. |
+| Topic Tag | A keyword label applied to a GitHub repository for discoverability and categorization. |
 | Zenodo | An open-access repository hosted by CERN that assigns DOIs to research outputs, including software releases. |
 
 ---
@@ -116,7 +116,7 @@ Five non-negotiable principles underpin every standard in this framework.
 
 ### 3.1 Traceability
 
-Every change, artefact, and decision must be attributable to a specific author, linked to a specific reason, and recorded in an immutable audit trail. Enforced by: signed commits, mandatory issue linkage, structured commit messages, annotated release tags, and changelogs.
+Every change, artifact, and decision must be attributable to a specific author, linked to a specific reason, and recorded in an immutable audit trail. Enforced by: signed commits, mandatory issue linkage, structured commit messages, annotated release tags, and changelogs.
 
 ### 3.2 Coherence
 
@@ -128,7 +128,7 @@ Every operational action must be reversible without data loss. Enforced by: bran
 
 ### 3.4 Verification
 
-Every claim about correctness must be mechanically checkable. Enforced by: CI/CD on all PRs, formal proof verification for Tier 1, automated dependency and licence audits, and the compliance checklist.
+Every claim about correctness must be mechanically checkable. Enforced by: CI/CD on all PRs, formal proof verification for Tier 1, automated dependency and license audits, and the compliance checklist.
 
 ### 3.5 Openness
 
@@ -152,7 +152,7 @@ Governance documents, decision rationales, and contribution processes are visibl
 
 | Role | Permissions | Responsibilities | Min Count |
 |------|-------------|-----------------|-----------|
-| **Organisation Owner** | Full administrative control. | Approve repos and tiers. Approve governance amendments. Manage teams. Final escalation. | 2 (continuity) |
+| **Organization Owner** | Full administrative control. | Approve repos and tiers. Approve governance amendments. Manage teams. Final escalation. | 2 (continuity) |
 | **Repository Maintainer** | Admin on assigned repos. | Enforce standards. Triage issues. Review and merge. Manage releases. Maintain CODEOWNERS. | 1 per active repo |
 | **Core Contributor** | Write access to assigned repos. | Develop code, proofs, docs. Follow conventions. Maintain test coverage. | No minimum |
 | **External Contributor** | Fork access only. | Follow CONTRIBUTING.md. Sign off commits. Read onboarding guide before first contribution. | No minimum |
@@ -197,7 +197,7 @@ Governance documents, decision rationales, and contribution processes are visibl
 ### 5.2 Assignment & Reclassification
 
 1. Proposer recommends a tier when creating a repository ([Section 11](#11-repository-lifecycle-management)).
-2. Organisation Owners approve.
+2. Organization Owners approve.
 3. Tiers are reviewed quarterly ([Section 15](#15-compliance--auditing)).
 4. A tier change automatically changes compliance obligations across Sections 6–12 and 15.
 
@@ -212,7 +212,7 @@ Governance documents, decision rationales, and contribution processes are visibl
 | README.md | Purpose, build instructions, badges, UOR relationship. | Req | Req | Req | Req |
 | LICENSE | MIT by default. Deviation requires Owner approval. | Req | Req | Req | Req |
 | CONTRIBUTING.md | Dev setup, PR process, commit conventions. | Req | Req | Rec | Opt |
-| CODE_OF_CONDUCT.md | Contributor Covenant v2.1. | Req | Req | Rec | Opt |
+| CODE_OF_CONDUCT.md | Contributor Covenant v3.0. | Req | Req | Rec | Opt |
 | SECURITY.md | Vulnerability reporting with contact and response time. | Req | Req | Opt | Opt |
 | CHANGELOG.md | Human-readable per-version log. Refs PR/Issue. | Req | Req | Rec | Opt |
 | CITATION.cff | Machine-readable citation. DOI when available. | Req | Rec | Opt | Opt |
@@ -220,7 +220,7 @@ Governance documents, decision rationales, and contribution processes are visibl
 | .github/pull_request_template.md | PR checklist ([Appendix B](#appendix-b-pull-request-review-checklist)). | Req | Req | Rec | Opt |
 | .github/ISSUE_TEMPLATE/ | Bug, feature, question templates. | Req | Rec | Opt | Opt |
 | .github/workflows/ | CI/CD: lint, test, build on every PR. | Req | Req | Rec | Opt |
-| .gitignore | Excludes build artefacts, secrets, env files. | Req | Req | Req | Req |
+| .gitignore | Excludes build artifacts, secrets, env files. | Req | Req | Req | Req |
 
 **Req** = Required · **Rec** = Recommended · **Opt** = Optional
 
@@ -299,7 +299,7 @@ All Tier 1–2 repositories follow [SemVer 2.0.0](https://semver.org/):
 
 1. All targeted PRs merged. CI green on `main`. CHANGELOG updated.
 2. Create annotated tag: `git tag -a v1.2.3 -m "Release v1.2.3: summary"`
-3. Push tag. Create GitHub Release with notes and artefacts.
+3. Push tag. Create GitHub Release with notes and artifacts.
 4. Tier 1: Submit to Zenodo for DOI. Update CITATION.cff.
 5. Announce in GitHub Discussions.
 
@@ -338,13 +338,13 @@ See [Appendix B](#appendix-b-pull-request-review-checklist).
 | Doc build | rustdoc / typedoc / sphinx | Req | Req | Opt |
 | Proof compilation | Lean 4 (`lake build`) / Coq | Req (if applicable) | If applicable | N/A |
 | Dependency audit | cargo audit / npm audit | Weekly + on PR | Weekly | Monthly |
-| Licence scan | REUSE / licence-checker | Monthly | Monthly | Quarterly |
+| License scan | REUSE / license-checker | Monthly | Monthly | Quarterly |
 
 ---
 
 ## 10. Cross-Repository Coherence
 
-### 10.1 Organisation-Level README
+### 10.1 Organization-Level README
 
 The `.github` repository contains a `profile/README.md` serving as the organization's landing page. It must include a categorized table of all active repositories (grouped by tier), links to this governance framework, and links to the contributing guidelines and code of conduct. It is updated whenever a repository is created, archived, or reclassified.
 
@@ -399,7 +399,7 @@ Forks introduce governance complexity. The following rules apply:
 2. Open for comment for 7 days.
 3. Approved by 2 Owners.
 4. Created from template repo ([Appendix D](#appendix-d-template-repository-manifest)). Branch protection per tier. Topic tags applied.
-5. Announced in Discussions. Organisation README updated.
+5. Announced in Discussions. Organization README updated.
 
 ### 11.3 Deprecation
 
@@ -416,7 +416,7 @@ Forks introduce governance complexity. The following rules apply:
 
 ### 11.5 Emergency Archival
 
-A single Owner may archive immediately if a repository poses an immediate risk (exposed secrets, licence violation). Retroactive Discussion filed within 48 hours.
+A single Owner may archive immediately if a repository poses an immediate risk (exposed secrets, license violation). Retroactive Discussion filed within 48 hours.
 
 ---
 
@@ -450,21 +450,21 @@ Tier 1–2 repositories must include SECURITY.md. Reports must use private chann
 
 ## 13. Intellectual Property & Licensing
 
-### 13.1 Default Licence
+### 13.1 Default License
 
 MIT. Chosen for simplicity, permissiveness, and compatibility with academic and commercial use.
 
 ### 13.2 Exceptions
 
-Different licence requires Discussion in `.github`, rationale, and 2 Owner approvals. Documented in repository README. Current exception: [UOR-Framework](https://github.com/UOR-Foundation/UOR-Framework) uses Apache-2.0.
+Different license requires Discussion in `.github`, rationale, and 2 Owner approvals. Documented in repository README. Current exception: [UOR-Framework](https://github.com/UOR-Foundation/UOR-Framework) uses Apache-2.0.
 
 ### 13.3 Contributor Expectations
 
-By submitting a PR, the contributor represents they have the right to licence their contribution under the repository's licence and that it does not infringe third-party IP. Documented in CONTRIBUTING.md. No formal CLA is currently required.
+By submitting a PR, the contributor represents they have the right to license their contribution under the repository's license and that it does not infringe third-party IP. Documented in CONTRIBUTING.md. No formal CLA is currently required.
 
 ### 13.4 Third-Party Dependencies
 
-All dependencies must carry licences compatible with MIT. Monthly licence compliance scan verifies this. Incompatible dependencies must be replaced before the next release.
+All dependencies must carry licenses compatible with MIT. Monthly license compliance scan verifies this. Incompatible dependencies must be replaced before the next release.
 
 ---
 
@@ -501,7 +501,7 @@ Post in the repository's Discussion tab or [organization-level Discussions](http
 |-------|-----------|-------|-------|--------|
 | Repo structure | Monthly (auto) | All repos: files, protection, tags ([Appendix A](#appendix-a-repository-compliance-checklist)). | CI bot | Report in Discussions |
 | Dependency security | Weekly (auto) | Tier 1–2: cargo audit / npm audit. | CI bot | Issue auto-filed |
-| Licence compliance | Monthly (auto) | All repos: REUSE / licence-checker. | CI bot | Report + Issue |
+| License compliance | Monthly (auto) | All repos: REUSE / license-checker. | CI bot | Report + Issue |
 | Governance review | Quarterly (manual) | Full framework. | Owners | Changelog entry |
 | Strategic review | Annually (manual) | Tiers, lifecycle, effectiveness, community health. | Owners + Maintainers | New framework version |
 
@@ -550,7 +550,7 @@ Post in the repository's Discussion tab or [organization-level Discussions](http
 | 1 | README.md | Present, non-empty, follows [Section 6](#6-repository-standards) structure. | All |
 | 2 | LICENSE | Present, MIT (or approved exception per [Section 13](#13-intellectual-property--licensing)). | All |
 | 3 | CONTRIBUTING.md | Present. Describes workflow, commit conventions. | T1–2 |
-| 4 | CODE_OF_CONDUCT.md | Present. Contributor Covenant v2.1. | T1–2 |
+| 4 | CODE_OF_CONDUCT.md | Present. Contributor Covenant v3.0. | T1–2 |
 | 5 | SECURITY.md | Present. Contact method and response time. | T1–2 |
 | 6 | CHANGELOG.md | Present. Entries for each release. | T1–2 |
 | 7 | CODEOWNERS | Present. Maps paths to reviewers. | T1–2 |
@@ -616,7 +616,7 @@ All new repositories are created from the organization template, which contains:
 | README.md | Skeleton with badge placeholders, section headers, UOR relationship. | Maintainer fills specifics. |
 | LICENSE | MIT, pre-filled with UOR Foundation as copyright holder. | Change only with Owner approval ([Section 13](#13-intellectual-property--licensing)). |
 | CONTRIBUTING.md | Generic guide referencing this governance framework. | Maintainer may add repo-specifics. |
-| CODE_OF_CONDUCT.md | Contributor Covenant v2.1. | Do not modify. |
+| CODE_OF_CONDUCT.md | Contributor Covenant v3.0. | Do not modify. |
 | SECURITY.md | Template with placeholder contact and 24-hour acknowledgement. | Maintainer fills contact details. |
 | CHANGELOG.md | Empty with `## [Unreleased]` header. | Entries added per release. |
 | .github/CODEOWNERS | Template with instructions. | Must be populated before first PR. |

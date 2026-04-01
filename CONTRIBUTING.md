@@ -46,9 +46,9 @@ type(scope): description
 
 Example: `feat(atlas): add E7 augmentation construction`
 
-## Licence
+## License
 
-By submitting a Pull Request, you represent that you have the right to licence your contribution under the repository's licence (MIT by default) and that it does not infringe any third-party intellectual property rights.
+By submitting a Pull Request, you represent that you have the right to license your contribution under the repository's license (MIT by default) and that it does not infringe any third-party intellectual property rights.
 
 ## Getting Help
 
