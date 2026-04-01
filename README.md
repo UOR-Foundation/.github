@@ -1,6 +1,6 @@
 # UOR Foundation - Start Here
 
-This is the canonical entry point for the UOR Foundation on GitHub.
+This is the main entry point for the UOR Foundation on GitHub.
 
 If you contribute in open-source ecosystems, this should feel familiar: clear governance, clear lifecycle, clear ways to contribute.
 
@@ -15,6 +15,13 @@ The foundation supports projects built on top of UOR through governance, lifecyc
 - **Governance** - Rules, roles, and decision process.
 - **Technical Oversight** - Project lifecycle and maturity process.
 - **Community** - Open contribution and public collaboration.
+
+## Folder Structure
+
+- `governance/` - Governance framework and change log
+- `toc/` - Project lifecycle and review process
+- `.github/` - PR template and issue templates
+- root docs (`README`, `CONTRIBUTING`, `SECURITY`, `STANDARDS`, `CODE_OF_CONDUCT`) - core contributor experience
 
 ## How to Participate
 
@@ -41,14 +48,7 @@ The foundation supports projects built on top of UOR through governance, lifecyc
 | Security reporting and timelines | [SECURITY.md](./SECURITY.md) |
 | Behavior expectations and enforcement | [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) |
 | Naming and versioning standards | [STANDARDS.md](./STANDARDS.md) |
-| Canonical source mapping | [CANONICAL_SOURCES.md](./CANONICAL_SOURCES.md) |
-| Documentation rules | [DOCUMENTATION_SPEC.md](./DOCUMENTATION_SPEC.md) |
-| GitHub/website/Discord message alignment | [SURFACE_ALIGNMENT.md](./SURFACE_ALIGNMENT.md) |
-| `.github` vs `UOR-Framework` ownership boundary | [REPO_BOUNDARY.md](./REPO_BOUNDARY.md) |
-
-## Rule
-
-If documents conflict, the canonical source listed in `CANONICAL_SOURCES.md` prevails.
+| Framework implementation and spec | [UOR-Framework](https://github.com/UOR-Foundation/UOR-Framework) |
 
 ## Foundation Links
 

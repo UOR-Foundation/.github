@@ -1,3 +1,3 @@
 # Root README Redirect
 
-Use the canonical foundation entry point: [README.md](./README.md).
+Use the foundation entry point: [README.md](./README.md).

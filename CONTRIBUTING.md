@@ -2,7 +2,7 @@
 
 Thank you for your interest in contributing. This guide covers the workflow, conventions, and expectations for all contributors.
 
-Canonical references: [Foundation entry point](./README.md) · [Canonical sources](./CANONICAL_SOURCES.md)
+Related docs: [README.md](./README.md) · [governance/GOVERNANCE.md](./governance/GOVERNANCE.md)
 
 ## Quick Start
 

@@ -1,6 +1,6 @@
 # Security Policy
 
-Canonical references: [Foundation entry point](./README.md) · [Canonical sources](./CANONICAL_SOURCES.md)
+Related docs: [README.md](./README.md) · [governance/GOVERNANCE.md](./governance/GOVERNANCE.md)
 
 ## Reporting a Vulnerability
 
