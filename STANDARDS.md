@@ -1,6 +1,8 @@
 # Repository Standards
 
-This document summarises the naming, versioning, and tagging conventions enforced across all UOR Foundation repositories. For the complete governance framework, see [`governance/GOVERNANCE.md`](governance/GOVERNANCE.md).
+This document summarizes the naming, versioning, and tagging conventions enforced across all UOR Foundation repositories. For the complete governance framework, see [`governance/GOVERNANCE.md`](governance/GOVERNANCE.md).
+
+Canonical references: [Foundation entry point](./README.md) · [Canonical sources](./CANONICAL_SOURCES.md)
 
 ## Naming Conventions
 

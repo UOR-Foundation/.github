@@ -2,7 +2,9 @@
 
 v1.1 — UOR Foundation Project Lifecycle and Review Process
 
-This document defines how projects enter, progress, and exit lifecycle stages in the UOR Foundation. It follows a structure similar to the CNCF TOC process while remaining specific to UOR governance, standards, and operating practices.
+This document defines how projects enter, progress, and exit lifecycle stages in the UOR Foundation.
+
+Canonical references: [Foundation entry point](../README.md) · [Canonical sources](../CANONICAL_SOURCES.md)
 
 ## Table of Contents
 

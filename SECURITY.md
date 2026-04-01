@@ -1,5 +1,7 @@
 # Security Policy
 
+Canonical references: [Foundation entry point](./README.md) · [Canonical sources](./CANONICAL_SOURCES.md)
+
 ## Reporting a Vulnerability
 
 **Do not file a public Issue.** Vulnerabilities must be reported privately.
@@ -30,4 +32,4 @@ Include: description of the vulnerability, affected repository and version, step
 
 ## Scope
 
-This policy applies to all repositories under the [UOR Foundation](https://github.com/UOR-Foundation) organisation.
+This policy applies to all repositories under the [UOR Foundation](https://github.com/UOR-Foundation) organization.

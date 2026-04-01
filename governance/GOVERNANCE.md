@@ -11,6 +11,12 @@
 | Location | `github.com/UOR-Foundation/.github/governance/` |
 | Supersedes | Version 1.0 (February 2026) |
 
+Related documentation:
+
+- [Foundation entry point](../README.md)
+- [Canonical sources](../CANONICAL_SOURCES.md)
+- [Documentation spec](../DOCUMENTATION_SPEC.md)
+
 ---
 
 ## Table of Contents
@@ -42,9 +48,9 @@
 
 ### 1.1 Purpose
 
-This document establishes the authoritative governance framework for the UOR Foundation's GitHub organisational space (`github.com/UOR-Foundation`). It defines the norms, standards, and operational procedures that govern how repositories are created, structured, maintained, versioned, reviewed, secured, and retired.
+This document establishes the authoritative governance framework for the UOR Foundation's GitHub organizational space (`github.com/UOR-Foundation`). It defines the norms, standards, and operational procedures that govern how repositories are created, structured, maintained, versioned, reviewed, secured, and retired.
 
-The UOR Foundation is building a foundational substrate protocol for the open internet. The GitHub organisation is where this substrate takes material form — as code, formal proofs, specifications, and documentation. The governance of this space must reflect the same rigour, determinism, and integrity that the Foundation demands of its technical outputs.
+The UOR Foundation is building a foundational substrate protocol for the open internet. The GitHub organization is where this substrate takes material form — as code, formal proofs, specifications, and documentation. The governance of this space must reflect the same rigor, determinism, and integrity that the Foundation demands of its technical outputs.
 
 ### 1.2 Scope
 
@@ -87,7 +93,7 @@ Amendments follow the change control procedure in [Section 7](#7-change-control-
 | DOI | Digital Object Identifier. A permanent, unique identifier for a published work. Used to make research outputs citable. |
 | Fork | A copy of a repository under a different owner, used to propose changes. |
 | GitHub Actions | GitHub's built-in automation platform. Used to run CI/CD pipelines, automated tests, and compliance checks. |
-| GitHub Discussions | A forum feature within a GitHub organisation or repository. Used for proposals, Q&A, and governance decisions. |
+| GitHub Discussions | A forum feature within a GitHub organization or repository. Used for proposals, Q&A, and governance decisions. |
 | Issue | A tracked item (bug, feature, task) with number, labels, and assignees. |
 | Lean 4 / Coq | Formal proof assistants — software tools that mathematically verify the correctness of proofs and code. Used in Tier 1 repositories. |
 | Main Branch | The default, production-ready branch (named `main`). |
@@ -114,7 +120,7 @@ Every change, artefact, and decision must be attributable to a specific author, 
 
 ### 3.2 Coherence
 
-All repositories must form a self-consistent whole. No repository exists in isolation. Enforced by: organisation-level README as index, standardised topic tags, cross-repository dependency documentation, and consistent naming conventions.
+All repositories must form a self-consistent whole. No repository exists in isolation. Enforced by: organization-level README as index, standardized topic tags, cross-repository dependency documentation, and consistent naming conventions.
 
 ### 3.3 Reversibility
 
@@ -340,7 +346,7 @@ See [Appendix B](#appendix-b-pull-request-review-checklist).
 
 ### 10.1 Organisation-Level README
 
-The `.github` repository contains a `profile/README.md` serving as the organisation's landing page. It must include a categorised table of all active repositories (grouped by tier), links to this governance framework, and links to the contributing guidelines and code of conduct. It is updated whenever a repository is created, archived, or reclassified.
+The `.github` repository contains a `profile/README.md` serving as the organization's landing page. It must include a categorized table of all active repositories (grouped by tier), links to this governance framework, and links to the contributing guidelines and code of conduct. It is updated whenever a repository is created, archived, or reclassified.
 
 ### 10.2 Topic Tags
 
@@ -483,7 +489,7 @@ All dependencies must carry licences compatible with MIT. Monthly licence compli
 
 ### 14.3 Getting Help
 
-Post in the repository's Discussion tab or [organisation-level Discussions](https://github.com/orgs/UOR-Foundation/discussions).
+Post in the repository's Discussion tab or [organization-level Discussions](https://github.com/orgs/UOR-Foundation/discussions).
 
 ---
 
@@ -603,7 +609,7 @@ All repositories as of February 2026. Refreshed quarterly ([Section 15](#15-comp
 
 ## Appendix D: Template Repository Manifest
 
-All new repositories are created from the organisation template, which contains:
+All new repositories are created from the organization template, which contains:
 
 | File | Contents | Notes |
 |------|----------|-------|

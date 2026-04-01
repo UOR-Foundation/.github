@@ -2,6 +2,14 @@
 
 Thank you for your interest in contributing. This guide covers the workflow, conventions, and expectations for all contributors.
 
+Canonical references: [Foundation entry point](./README.md) · [Canonical sources](./CANONICAL_SOURCES.md)
+
+## Quick Start
+
+1. Pick an issue or open one.
+2. Create a branch from `main`.
+3. Open a PR linked to the issue.
+
 ## Before You Start
 
 1. Read the [Code of Conduct](CODE_OF_CONDUCT.md).
@@ -44,4 +52,4 @@ By submitting a Pull Request, you represent that you have the right to licence y
 
 ## Getting Help
 
-Post questions in the repository's Discussion tab or in the [organisation-level Discussions](https://github.com/orgs/UOR-Foundation/discussions).
+Post questions in the repository's Discussion tab or in the [organization-level Discussions](https://github.com/orgs/UOR-Foundation/discussions).
