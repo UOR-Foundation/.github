@@ -1,192 +1,137 @@
-# UOR Foundation — Project Lifecycle
+# UOR Technical Oversight Committee (TOC) Process
 
-> **Maintained by:** [Technical Oversight Committee](../governance/GOVERNANCE.md)  
-> **Related:** [GOVERNANCE.md](../governance/GOVERNANCE.md) · [STANDARDS.md](../STANDARDS.md) · [WISHLIST.md](./WISHLIST.md) · [CONTRIBUTOR_LADDER.md](./CONTRIBUTOR_LADDER.md)  
-> **Bylaws:** Article VI §6.1 · Article XII  
+v1.1 — UOR Foundation Project Lifecycle and Review Process
 
-This document defines how projects enter and advance through the UOR Foundation ecosystem. The lifecycle is modelled on the [CNCF TOC process](https://github.com/cncf/toc/blob/main/process/README.md) and will be immediately familiar to contributors from CNCF, Linux Foundation, and Kubernetes communities.
+This document defines how projects enter, progress, and exit lifecycle stages in the UOR Foundation. It follows a structure similar to the CNCF TOC process while remaining specific to UOR governance, standards, and operating practices.
 
----
+## Table of Contents
 
-## Project stages
+- [Project Stages](#project-stages)
+- [Project Lifecycle Process](#project-lifecycle-process)
+- [How to Apply to Move Levels](#how-to-apply-to-move-levels)
+- [Timelines](#timelines)
+- [Project Resources and Guideposts](#project-resources-and-guideposts)
+- [Additional Information](#additional-information)
 
-```
-                        LOW BARRIER                    SIGNIFICANT BARRIER           CLEAR PATH
-                        Low reward                     Due diligence begins          to graduation
-                        Not compulsory                 Multi-org encouraged
+## Project Stages
 
-  ┌──────────┐          ┌─────────────────────┐        ┌──────────────────┐        ┌───────────┐
-  │ Wishlist │ ────────▶│       Sandbox        │───────▶│   Incubation     │───────▶│ Graduated │
-  │   / idea │          │  Experiments         │        │  Stable + adopted│        │ Production│
-  └──────────┘          │  Neutral home        │        │  TOC sponsor     │        │ ready     │
-                        └─────────────────────┘        └──────────────────┘        └───────────┘
-                               │                                │
-                               │ (inactive)                     │ (inactive)
-                               ▼                                ▼
-                          ┌──────────┐                   ┌──────────┐
-                          │ Archived │                   │ Archived │
-                          └──────────┘                   └──────────┘
-```
+The UOR TOC defines four lifecycle stages:
 
-| Stage | What it signals | Adopters | Multi-org | Vote required |
-|---|---|---|---|---|
-| **Sandbox** | Viable UOR use case | None | No | No — TOC member approves |
-| **Incubation** | Stable, gaining adoption | 1+ (dev/test) | No | Yes — simple majority |
-| **Graduated** | Production-ready, well-governed | 3+ (≥1 production) | Yes (2+ orgs) | Yes — supermajority (⅔) |
-| **Archived** | Inactive or superseded | — | — | Yes — simple majority |
+- **Sandbox** - Early-stage projects with promising UOR relevance.
+- **Incubation** - Projects showing stability, active maintenance, and growing adoption.
+- **Graduated** - Mature, production-ready projects with strong governance and multi-organization confidence.
+- **Archived** - Inactive, superseded, or no longer recommended projects.
 
----
+| Stage | Primary Signal | Typical Evidence | Decision Method |
+|---|---|---|---|
+| **Sandbox** | Early fit and potential | Clear use case, active maintainer, basic repo hygiene | TOC review and approval |
+| **Incubation** | Increasing maturity | Versioned releases/APIs, contribution activity, early adopters | TOC vote (simple majority) |
+| **Graduated** | Production readiness | Multi-org maintainership, security posture, demonstrable adoption | TOC vote (supermajority, 2/3) |
+| **Archived** | Inactivity or replacement | Sustained inactivity, maintainer request, or supersession | TOC vote (simple majority) |
 
-## Sandbox
+## Project Lifecycle Process
 
-**The entry point.** For early-stage ideas, proofs of concept, and direct responses to [Wishlist](./WISHLIST.md) items. Low barrier — the goal is visibility and community feedback, not maturity.
+Projects typically enter at **Sandbox**, then may apply to move to **Incubation** and **Graduated**. At each transition, the TOC performs due diligence appropriate to the stage.
 
-**Criteria:**
+High-level process:
 
-- [ ] Clear UOR use case — reference the relevant spec section or API endpoint
-- [ ] Public GitHub repository with a `README.md`
-- [ ] At least one named maintainer (GitHub handle + organisation)
-- [ ] `CODE_OF_CONDUCT.md` adopted (link to [`process/CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) is sufficient)
-- [ ] Apache-2.0 licence (or approved alternative — see [`STANDARDS.md §6`](../STANDARDS.md))
+1. **Application submitted** in [UOR Foundation `.github` issues](https://github.com/UOR-Foundation/.github/issues).
+2. **TOC triage** for completeness and stage fit.
+3. **Sponsor assignment** for Incubation/Graduation applications.
+4. **Due diligence review** of governance, quality, security, and adoption evidence.
+5. **Public comment period** (required for Graduation).
+6. **TOC vote** and decision publication.
 
-**How to apply:**
+All process decisions and escalations align with:
 
-1. Open a thread in `≡ projects` on the [UOR Foundation Discord](https://discord.gg/ZwuZaNyuve) with the tag `sandbox`
-2. Use the [Sandbox application template](./templates/sandbox-application.md)
-3. A TOC member responds within **7 days**
+- [UOR Governance Framework](../governance/GOVERNANCE.md)
+- [UOR Foundation Bylaws](https://github.com/UOR-Foundation/.github/blob/main/governance/The_UOR_Foundation_Bylaws.pdf)
 
-**On acceptance:**
+## How to Apply to Move Levels
 
-- Project listed on `uor.foundation` with a `sandbox` badge
-- Maintainer added to [`MAINTAINERS.md`](./MAINTAINERS.md)
-- TOC assigns a point of contact
+### Applying to Sandbox
 
----
+Submit a Sandbox request via [new issue](https://github.com/UOR-Foundation/.github/issues/new/choose) and include:
 
-## Incubation
+- Project purpose and UOR relevance
+- Repository URL
+- Named maintainer(s)
+- Current state and expected next milestones
 
-**Active building stage.** Projects that have moved beyond experimentation. Incubating projects demonstrate stability — slower rate of change, versioned APIs, and adoption beginning to emerge outside the core team.
+Minimum expected repository baseline:
 
-**Criteria** — Sandbox criteria, plus:
+- `README.md`
+- `LICENSE`
+- `CODE_OF_CONDUCT.md`
 
-- [ ] Minimum 30 days in Sandbox
-- [ ] Active contributions from at least 2 individuals
-- [ ] `GOVERNANCE.md` in the project repository
-- [ ] `CONTRIBUTING.md` in the project repository
-- [ ] At least one versioned release or versioned API (pre-1.0 is acceptable)
-- [ ] At least 1 adopter — dev/test use is sufficient
-- [ ] A TOC member willing to sponsor the application
+Reference standards: [Repository Standards](../STANDARDS.md).
 
-**How to apply:**
+### Applying to Incubation
 
-1. Open a GitHub issue at [UOR-Foundation/.github](https://github.com/UOR-Foundation/.github/issues) titled `[Incubation] Project Name`
-2. Use the [Incubation application template](./templates/incubation-application.md)
-3. TOC assigns a sponsor within **14 days**
-4. TOC votes within **14 days** of sponsor assignment — simple majority required
+Submit an issue titled: `[Incubation] <Project Name>`
 
-**On acceptance:**
+Include evidence for:
 
-- `incubation` badge on `uor.foundation`
-- TOC sponsor assigned as the project's foundation point of contact
-- [`MAINTAINERS.md`](./MAINTAINERS.md) updated with organisation affiliation
+- Ongoing maintenance and contributor activity
+- Basic governance/contribution docs (`CONTRIBUTING.md`, maintainership clarity)
+- Versioned release/API practices
+- At least one adopter or clear integration usage
 
----
+### Applying to Graduation
 
-## Graduated
+Submit an issue titled: `[Graduation] <Project Name>`
 
-**Production-ready.** The signal that a project is stable, well-governed, and trusted for production use. Graduation requires demonstrable adoption across independent organisations, complete governance documentation, and multi-organisation maintainership.
+Include evidence for:
 
-**Criteria** — Incubation criteria, plus:
+- Multi-organization maintainership
+- Strong security posture and documented vulnerability handling
+- Proven adoption and production-oriented operation
+- Consistent release and review discipline
 
-- [ ] Maintainers from at least 2 independent organisations
-- [ ] `GOVERNANCE.md` complete — contributor ladder, voting process, maintainer onboarding/offboarding
-- [ ] `MAINTAINERS.md` listing all maintainers with organisations and GitHub handles
-- [ ] `SECURITY.md` with a responsible disclosure process
-- [ ] `ADOPTERS.md` with at least 3 independent adopters — at least 1 in production
-- [ ] Demonstrable ongoing contribution activity (commit history, merged PRs)
+Graduation applications include a **public comment period of at least 2 weeks** before voting.
 
-**How to apply:**
+## Timelines
 
-1. Open a GitHub issue at [UOR-Foundation/.github](https://github.com/UOR-Foundation/.github/issues) titled `[Graduation] Project Name`
-2. Use the [Graduation application template](./templates/graduation-application.md)
-3. Application open for **public comment — 2 weeks minimum**
-4. TOC votes within **7 days** of comment period closing — supermajority (⅔) required
+The TOC targets the following service levels:
 
-**On acceptance:**
-
-- `graduated` badge and prominent listing on `uor.foundation` as production-ready
-- Board notified
-- [`MAINTAINERS.md`](./MAINTAINERS.md) updated
-
----
-
-## Archived
-
-**Inactive or superseded.** Archived projects are preserved and publicly accessible but no longer actively maintained or recommended.
-
-**Archival is triggered by any one of:**
-
-- No maintainer activity for 6 months
-- Maintainer(s) request archival
-- TOC determines the project is superseded or no longer safe to recommend
-
-**Process:** TOC notifies the maintainer and allows **30 days** to respond. A new maintainer stepping forward within that window may keep the project active. Archived projects may return with a new maintainer and a simple majority TOC vote.
-
----
-
-## Voting rules
-
-All votes are conducted publicly via GitHub issue. Results are posted in `#governance` on Discord and logged in the [quarterly report](./QUARTERLY_REPORT.md).
-
-| Decision | Threshold | Who votes |
-|---|---|---|
-| Sandbox acceptance | No formal vote | Single TOC member approves |
-| Incubation | Simple majority | All TOC members |
-| Graduation | Supermajority — ⅔ | All TOC members |
-| Archival | Simple majority | All TOC members |
-| TOC member election | Supermajority — ⅔ | Existing TOC + Board |
-
-> **Conflict of interest:** Any TOC member directly affiliated with a project under review must declare the conflict in the GitHub issue and abstain from voting. Required by Bylaws §10.3 — see [`GOVERNANCE.md §9`](../governance/GOVERNANCE.md).
-
----
-
-## Response-time commitments
-
-| Action | SLA |
+| Action | Target Timeline |
 |---|---|
-| Sandbox review | 7 days |
-| Incubation sponsor assignment | 14 days from application |
-| Incubation vote | 14 days from sponsor assignment |
-| Graduation public comment | 2 weeks minimum |
-| Graduation vote | 7 days after comment period closes |
-| Archival notice to maintainer | 30 days before archival |
+| Sandbox initial triage | Within 7 days |
+| Incubation sponsor assignment | Within 14 days |
+| Incubation vote after sponsor assignment | Within 14 days |
+| Graduation public comment period | Minimum 14 days |
+| Graduation vote after comment closes | Within 7 days |
+| Archival response window | 30 days notice to maintainers |
 
----
+These are target timelines, not guarantees. Complexity, evidence quality, and reviewer availability may extend review duration.
 
-## The Wishlist
+## Project Resources and Guideposts
 
-[`process/WISHLIST.md`](./WISHLIST.md) is the TOC's curated list of open problems the foundation needs the community to solve. Each entry includes a problem statement, a pointer to the relevant spec section or API endpoint, and a status (open / in progress / completed).
+Core UOR governance and operational references:
 
-Sandbox submissions that address a Wishlist item are reviewed with priority.
+- [Governance Framework](../governance/GOVERNANCE.md)
+- [Governance Changelog](../governance/CHANGELOG.md)
+- [Contributing Guide](../CONTRIBUTING.md)
+- [Code of Conduct](../CODE_OF_CONDUCT.md)
+- [Security Policy](../SECURITY.md)
+- [Repository Standards](../STANDARDS.md)
+- [Foundation Governance Overview](../README.md)
 
-To propose a new Wishlist item, open a GitHub issue tagged `wishlist-proposal`.
+Community and collaboration channels:
 
----
+- [UOR Foundation GitHub Discussions](https://github.com/orgs/UOR-Foundation/discussions)
+- [UOR Foundation Discord](https://discord.gg/ZwuZaNyuve)
 
-## Submission templates
+## Additional Information
 
-| Template | Use when |
-|---|---|
-| [Sandbox application](./templates/sandbox-application.md) | Submitting a new project |
-| [Incubation application](./templates/incubation-application.md) | Requesting promotion to Incubation |
-| [Graduation application](./templates/graduation-application.md) | Requesting promotion to Graduated |
+### Conflict of Interest
 
----
+Any TOC member directly affiliated with a project under review must declare the conflict and abstain from voting on that decision.
 
-## Document history
+### Governance Authority
 
-| Version | Date | Notes |
-|---|---|---|
-| 1.0 | April 2026 | Initial version |
+The TOC operates under delegated authority within UOR Foundation governance. Final organizational authority remains with the Board of Directors, as defined by the Bylaws.
 
-*Amendments require a supermajority TOC vote and are announced in `#governance` before merging.*
+### Amendments to This Process
+
+Changes to this process should be proposed through a pull request in `.github`, reviewed publicly, and approved through the TOC governance process.
