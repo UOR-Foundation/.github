@@ -2,7 +2,7 @@
 
 | Property | Value |
 |----------|-------|
-| Version | 2.1 |
+| Version | 2.2 |
 | Status | Active |
 | Scope | `github.com/UOR-Foundation` |
 | Owner | UOR Foundation Organization Owners |
@@ -38,7 +38,7 @@ It applies to:
 
 - **Open by default** - decisions and process are visible.
 - **Clear ownership** - every repo has maintainers.
-- **Review before merge** - no direct pushes to protected branches.
+- **Pull request before merge** - no direct pushes to protected branches; required checks gate every merge.
 - **Bias for action** - small PRs, fast feedback, practical decisions.
 
 ## 4. Roles, Teams & Escalation
@@ -87,7 +87,7 @@ It applies to:
 | Rule | Tier 1 | Tier 2 | Tier 3 | Tier 4 |
 |------|:------:|:------:|:------:|:------:|
 | PR required | Yes | Yes | Yes | Rec |
-| Review required | 2 | 1 | 1 | Opt |
+| Approving reviews required | 0 | 0 | 0 | 0 |
 | Status checks required | Yes | Yes | Yes | Opt |
 | Force push allowed | No | No | No | No |
 
@@ -99,7 +99,7 @@ It applies to:
 2. Create a branch from `main`.
 3. Make focused commits.
 4. Open a PR linked to the issue.
-5. Pass review and CI.
+5. Pass CI (reviews are welcome; none is required to merge).
 6. Merge and close.
 
 ### 7.2 Branch Naming
@@ -123,7 +123,7 @@ For critical issues:
 
 1. Declare severity and notify maintainers/owners.
 2. Open a minimal fix PR.
-3. Require at least one reviewer and green CI.
+3. Require green CI.
 4. Release patch quickly.
 5. Add follow-up notes within 48 hours.
 
@@ -137,7 +137,7 @@ For critical issues:
 
 | Requirement | Tier 1 | Tier 2 | Tier 3 |
 |-------------|:------:|:------:|:------:|
-| Minimum reviewers | 2 | 1 | 1 |
+| Approving reviews required to merge | 0 | 0 | 0 |
 | CI required | Yes | Yes | Yes |
 | Documentation update when needed | Yes | Yes | Yes |
 
