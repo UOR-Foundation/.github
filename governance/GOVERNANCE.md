@@ -1,14 +1,15 @@
 # UOR Foundation - GitHub Governance Framework
 
-| Property | Value |
-|----------|-------|
-| Version | 2.2 |
-| Status | Active |
-| Scope | `github.com/UOR-Foundation` |
-| Owner | UOR Foundation Organization Owners |
-| Review cycle | Quarterly |
+| Property     | Value                              |
+| ------------ | ---------------------------------- |
+| Version      | 2.2                                |
+| Status       | Active                             |
+| Scope        | `github.com/UOR-Foundation`        |
+| Owner        | UOR Foundation Organization Owners |
+| Review cycle | Quarterly                          |
 
-Related docs: [README.md](../README.md) · [CONTRIBUTING.md](../CONTRIBUTING.md) · [SECURITY.md](../SECURITY.md)
+Related docs: [README.md](../README.md) · [CONTRIBUTING.md](../CONTRIBUTING.md)
+· [SECURITY.md](../SECURITY.md)
 
 ---
 
@@ -16,7 +17,8 @@ Related docs: [README.md](../README.md) · [CONTRIBUTING.md](../CONTRIBUTING.md)
 
 This document defines how the UOR Foundation runs projects on GitHub.
 
-It exists to keep the process clear, fair, and fast so contributors can build with confidence.
+It exists to keep the process clear, fair, and fast so contributors can build
+with confidence.
 
 It applies to:
 
@@ -26,70 +28,71 @@ It applies to:
 
 ## 2. Glossary
 
-| Term | Meaning |
-|------|---------|
-| Issue | A tracked task, bug, or proposal. |
-| Pull Request (PR) | A proposed change to merge. |
-| Maintainer | A person responsible for a repository. |
-| Owner | A foundation admin with final authority. |
-| Tier | A repository class that sets minimum controls. |
+| Term              | Meaning                                        |
+| ----------------- | ---------------------------------------------- |
+| Issue             | A tracked task, bug, or proposal.              |
+| Pull Request (PR) | A proposed change to merge.                    |
+| Maintainer        | A person responsible for a repository.         |
+| Owner             | A foundation admin with final authority.       |
+| Tier              | A repository class that sets minimum controls. |
 
 ## 3. Guiding Principles
 
 - **Open by default** - decisions and process are visible.
 - **Clear ownership** - every repo has maintainers.
-- **Pull request before merge** - no direct pushes to protected branches; required checks gate every merge.
+- **Pull request before merge** - no direct pushes to protected branches;
+  required checks gate every merge.
 - **Bias for action** - small PRs, fast feedback, practical decisions.
 
 ## 4. Roles, Teams & Escalation
 
 ### 4.1 Roles
 
-| Role | Core responsibility |
-|------|---------------------|
-| Organization Owner | Final governance decisions and escalations |
+| Role                  | Core responsibility                         |
+| --------------------- | ------------------------------------------- |
+| Organization Owner    | Final governance decisions and escalations  |
 | Repository Maintainer | Day-to-day repo health, review, and release |
-| Contributor | Proposes and ships improvements through PRs |
+| Contributor           | Proposes and ships improvements through PRs |
 
 ### 4.2 Escalation
 
-| Situation | Path |
-|-----------|------|
-| PR stalled | Ping maintainers, then escalate to owners |
-| Technical disagreement | Maintainer decides; owners resolve tie/dispute |
-| Conduct issue | Report via `SECURITY.md`; owners handle response |
+| Situation              | Path                                             |
+| ---------------------- | ------------------------------------------------ |
+| PR stalled             | Ping maintainers, then escalate to owners        |
+| Technical disagreement | Maintainer decides; owners resolve tie/dispute   |
+| Conduct issue          | Report via `SECURITY.md`; owners handle response |
 
 ## 5. Repository Classification
 
-| Tier | Use case | Minimum expectation |
-|------|----------|---------------------|
-| Tier 1 | Core framework and critical specs | Strong review and verification |
-| Tier 2 | Implementations and integrations | Standard review and CI |
-| Tier 3 | Docs, websites, and presentation repos | Basic review and CI |
-| Tier 4 | Early experiments | Clear status and basic hygiene |
+| Tier   | Use case                               | Minimum expectation            |
+| ------ | -------------------------------------- | ------------------------------ |
+| Tier 1 | Core framework and critical specs      | Strong review and verification |
+| Tier 2 | Implementations and integrations       | Standard review and CI         |
+| Tier 3 | Docs, websites, and presentation repos | Basic review and CI            |
+| Tier 4 | Early experiments                      | Clear status and basic hygiene |
 
 ## 6. Repository Standards
 
 ### 6.1 Required Files
 
-| File | Tier 1 | Tier 2 | Tier 3 | Tier 4 |
-|------|:------:|:------:|:------:|:------:|
-| `README.md` | Req | Req | Req | Req |
-| `LICENSE` | Req | Req | Req | Req |
-| `CONTRIBUTING.md` | Req | Req | Rec | Opt |
-| `CODE_OF_CONDUCT.md` | Req | Req | Rec | Opt |
-| `SECURITY.md` | Req | Req | Opt | Opt |
-| `.github/CODEOWNERS` | Req | Req | Opt | Opt |
-| CI workflow | Req | Req | Rec | Opt |
+| File                 | Tier 1 | Tier 2 | Tier 3 | Tier 4 |
+| -------------------- | :----: | :----: | :----: | :----: |
+| `README.md`          |  Req   |  Req   |  Req   |  Req   |
+| `LICENSE`            |  Req   |  Req   |  Req   |  Req   |
+| `CONTRIBUTING.md`    |  Req   |  Req   |  Rec   |  Opt   |
+| `CODE_OF_CONDUCT.md` |  Req   |  Req   |  Rec   |  Opt   |
+| `SECURITY.md`        |  Req   |  Req   |  Opt   |  Opt   |
+| `.github/CODEOWNERS` |  Req   |  Req   |  Opt   |  Opt   |
+| CI workflow          |  Req   |  Req   |  Rec   |  Opt   |
 
 ### 6.2 Branch Protection Rules
 
-| Rule | Tier 1 | Tier 2 | Tier 3 | Tier 4 |
-|------|:------:|:------:|:------:|:------:|
-| PR required | Yes | Yes | Yes | Rec |
-| Approving reviews required | 0 | 0 | 0 | 0 |
-| Status checks required | Yes | Yes | Yes | Opt |
-| Force push allowed | No | No | No | No |
+| Rule                       | Tier 1 | Tier 2 | Tier 3 | Tier 4 |
+| -------------------------- | :----: | :----: | :----: | :----: |
+| PR required                |  Yes   |  Yes   |  Yes   |  Rec   |
+| Approving reviews required |   0    |   0    |   0    |   0    |
+| Status checks required     |  Yes   |  Yes   |  Yes   |  Opt   |
+| Force push allowed         |   No   |   No   |   No   |   No   |
 
 ## 7. Change Control & Contribution Workflow
 
@@ -135,11 +138,11 @@ For critical issues:
 
 ## 9. Peer Review & Quality Assurance
 
-| Requirement | Tier 1 | Tier 2 | Tier 3 |
-|-------------|:------:|:------:|:------:|
-| Approving reviews required to merge | 0 | 0 | 0 |
-| CI required | Yes | Yes | Yes |
-| Documentation update when needed | Yes | Yes | Yes |
+| Requirement                         | Tier 1 | Tier 2 | Tier 3 |
+| ----------------------------------- | :----: | :----: | :----: |
+| Approving reviews required to merge |   0    |   0    |   0    |
+| CI required                         |  Yes   |  Yes   |  Yes   |
+| Documentation update when needed    |  Yes   |  Yes   |  Yes   |
 
 ## 10. Cross-Repository Coherence
 
@@ -149,12 +152,12 @@ For critical issues:
 
 ## 11. Repository Lifecycle Management
 
-| Stage | Description |
-|-------|-------------|
-| Proposal | New repo or project idea under review |
-| Active | Normal development |
-| Maintenance | Limited updates and fixes |
-| Archived | Read-only historical state |
+| Stage       | Description                           |
+| ----------- | ------------------------------------- |
+| Proposal    | New repo or project idea under review |
+| Active      | Normal development                    |
+| Maintenance | Limited updates and fixes             |
+| Archived    | Read-only historical state            |
 
 Archive only when inactive or superseded, and keep context in README.
 
@@ -165,17 +168,20 @@ Security policy lives in [SECURITY.md](../SECURITY.md).
 Baseline response targets:
 
 | Severity | Acknowledge | Patch target |
-|----------|-------------|--------------|
-| Critical | 24h | 72h |
-| High | 24h | 7 days |
-| Medium | 48h | 30 days |
+| -------- | ----------- | ------------ |
+| Critical | 24h         | 72h          |
+| High     | 24h         | 7 days       |
+| Medium   | 48h         | 30 days      |
 
 ## 13. Intellectual Property & Licensing
 
 - Default license policy is MIT across foundation repos.
 - Exceptions require owner approval and clear documentation.
-- Current known exception: [UOR-Framework](https://github.com/UOR-Foundation/UOR-Framework) uses Apache-2.0.
+- Current known exception:
+  [UOR-Framework](https://github.com/UOR-Foundation/UOR-Framework) uses
+  Apache-2.0.
 
 ---
 
-For day-to-day work, start at [README.md](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
+For day-to-day work, start at [README.md](../README.md) and
+[CONTRIBUTING.md](../CONTRIBUTING.md).

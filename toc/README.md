@@ -2,31 +2,37 @@
 
 v1.2 — UOR Foundation Project Lifecycle and Review Process
 
-This document defines how projects move through lifecycle stages in the UOR Foundation.
+This document defines how projects move through lifecycle stages in the UOR
+Foundation.
 
-Related docs: [README.md](../README.md) · [governance/GOVERNANCE.md](../governance/GOVERNANCE.md)
+Related docs: [README.md](../README.md) ·
+[governance/GOVERNANCE.md](../governance/GOVERNANCE.md)
 
 ## Project Stages
 
 - **Sandbox** - Early-stage projects with promising UOR relevance.
-- **Incubation** - Projects showing stability, active maintenance, and growing adoption.
-- **Graduated** - Mature, production-ready projects with strong governance and multi-organization confidence.
+- **Incubation** - Projects showing stability, active maintenance, and growing
+  adoption.
+- **Graduated** - Mature, production-ready projects with strong governance and
+  multi-organization confidence.
 - **Archived** - Inactive, superseded, or no longer recommended projects.
 
-| Stage | Primary Signal | Typical Evidence | Decision |
-|---|---|---|---|
-| **Sandbox** | Early fit and potential | Clear use case, active maintainer, basic repo hygiene | TOC approval |
-| **Incubation** | Increasing maturity | Versioned releases/APIs, contribution activity, early adopters | TOC vote (simple majority) |
-| **Graduated** | Production readiness | Multi-org maintainership, security posture, demonstrable adoption | TOC vote (2/3) |
-| **Archived** | Inactivity or replacement | Sustained inactivity, maintainer request, or supersession | TOC vote (simple majority) |
+| Stage          | Primary Signal            | Typical Evidence                                                  | Decision                   |
+| -------------- | ------------------------- | ----------------------------------------------------------------- | -------------------------- |
+| **Sandbox**    | Early fit and potential   | Clear use case, active maintainer, basic repo hygiene             | TOC approval               |
+| **Incubation** | Increasing maturity       | Versioned releases/APIs, contribution activity, early adopters    | TOC vote (simple majority) |
+| **Graduated**  | Production readiness      | Multi-org maintainership, security posture, demonstrable adoption | TOC vote (2/3)             |
+| **Archived**   | Inactivity or replacement | Sustained inactivity, maintainer request, or supersession         | TOC vote (simple majority) |
 
 ## Project Lifecycle Process
 
-Projects usually enter at **Sandbox** and then apply to **Incubation** and **Graduated**.
+Projects usually enter at **Sandbox** and then apply to **Incubation** and
+**Graduated**.
 
 Core process:
 
-1. **Application submitted** in [UOR Foundation `.github` issues](https://github.com/UOR-Foundation/.github/issues).
+1. **Application submitted** in
+   [UOR Foundation `.github` issues](https://github.com/UOR-Foundation/.github/issues).
 2. **TOC triage** for completeness and stage fit.
 3. **Due diligence** on governance, quality, security, and adoption evidence.
 4. **Public comment period** for Graduation.
@@ -41,7 +47,9 @@ Authority references:
 
 ### Applying to Sandbox
 
-Submit a Sandbox request via [new issue](https://github.com/UOR-Foundation/.github/issues/new/choose). Include:
+Submit a Sandbox request via
+[new issue](https://github.com/UOR-Foundation/.github/issues/new/choose).
+Include:
 
 - Project purpose and UOR relevance
 - Repository URL
@@ -78,20 +86,21 @@ Include evidence for:
 - Proven adoption and production-oriented operation
 - Consistent release and review discipline
 
-Graduation requires a **public comment period of at least 2 weeks** before voting.
+Graduation requires a **public comment period of at least 2 weeks** before
+voting.
 
 ## Timelines
 
 Target service levels:
 
-| Action | Target Timeline |
-|---|---|
-| Sandbox initial triage | Within 7 days |
-| Incubation sponsor assignment | Within 14 days |
-| Incubation vote after sponsor assignment | Within 14 days |
-| Graduation public comment period | Minimum 14 days |
-| Graduation vote after comment closes | Within 7 days |
-| Archival response window | 30 days notice to maintainers |
+| Action                                   | Target Timeline               |
+| ---------------------------------------- | ----------------------------- |
+| Sandbox initial triage                   | Within 7 days                 |
+| Incubation sponsor assignment            | Within 14 days                |
+| Incubation vote after sponsor assignment | Within 14 days                |
+| Graduation public comment period         | Minimum 14 days               |
+| Graduation vote after comment closes     | Within 7 days                 |
+| Archival response window                 | 30 days notice to maintainers |
 
 Timelines are targets, not guarantees.
 
