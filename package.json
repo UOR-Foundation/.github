@@ -1,0 +1,12 @@
+{
+  "name": "uor-foundation-dotgithub",
+  "private": true,
+  "description": "Pinned linters for the organization's community health files",
+  "scripts": {
+    "lint": "prettier --check \"**/*.md\" && markdownlint-cli2 \"**/*.md\""
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.24.0",
+    "prettier": "3.6.2"
+  }
+}

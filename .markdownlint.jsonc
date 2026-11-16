@@ -1,0 +1,10 @@
+// markdownlint's own Prettier style turns off the rules Prettier decides
+// (line length, spacing, list indentation), so the two never disagree.
+{
+  "extends": "markdownlint/style/prettier",
+  // Keep a Changelog 1.1.0 repeats "Added", "Changed"... under every release.
+  "no-duplicate-heading": { "siblings_only": true },
+  // GitHub renders issue and pull request templates under the issue title,
+  // which is the page's top-level heading, so a template starts at "##".
+  "first-line-heading": false
+}

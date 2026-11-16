@@ -1,0 +1,28 @@
+# The organization's community health files are checked by the pinned
+# Prettier and markdownlint in package-lock.json (npm run lint). The job's
+# name is the gate the UOR Foundation merge controller waits for here
+# (UOR-Foundation/community automation/repos.json, shared: "^lint / ").
+name: lint
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  markdown:
+    name: lint / markdown
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: 22
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run lint

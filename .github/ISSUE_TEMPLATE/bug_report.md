@@ -10,9 +10,9 @@ labels: bug
 
 ## Steps to Reproduce
 
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ## Expected Behaviour
 
@@ -24,10 +24,10 @@ labels: bug
 
 ## Environment
 
-- **Repository:** 
-- **Version/Commit:** 
-- **OS:** 
-- **Language/Runtime version:** 
+- **Repository:**
+- **Version/Commit:**
+- **OS:**
+- **Language/Runtime version:**
 
 ## Additional Context
 
