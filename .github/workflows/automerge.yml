@@ -1,0 +1,28 @@
+# The UOR Foundation merge controller (UOR-Foundation/community
+# automation/AUTOMATION.md), run here on this repository's own pull requests
+# with this repository's token. In a shared repository it merges only an
+# agent's pull request, on a green "lint / " gate, and never one that reaches
+# outside the organization, a secret or a human gate without a human; a
+# person's pull request keeps its maintainers' review.
+name: automerge
+
+on:
+  schedule:
+    - cron: '17,47 * * * *'
+  check_suite:
+    types: [completed]
+  pull_request_review:
+    types: [submitted]
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  checks: read
+  contents: write
+  issues: write
+  pull-requests: write
+  statuses: read
+
+jobs:
+  automerge:
+    uses: UOR-Foundation/community/.github/workflows/automerge.yml@83d7e127ef5d198e0830040e13c0a7ec87288990
