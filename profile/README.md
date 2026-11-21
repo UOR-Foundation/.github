@@ -1,35 +1,31 @@
 # UOR Foundation
 
-The UOR Foundation stewards the Universal Object Reference (UOR) framework
-and supports related open-source projects.
+The UOR Foundation stewards the Universal Object Reference (UOR)
+framework and supports related open-source projects.
 
-This page points to project sources and the Foundation's contribution rules.
-Individual repositories establish their own implementation, verification,
-release status, and limitations.
+The links below are starting points, not claims that every project is
+released, certified, or production-ready. Each repository defines its
+own current capabilities, limitations, and verification evidence.
 
-## Technical projects
+## Technical repositories
+
+### Framework and modeling
 
 - [uor-framework](https://github.com/UOR-Foundation/uor-framework)
-  contains the Rust ontology workspace and conformance tooling.
 - [prism](https://github.com/UOR-Foundation/prism)
-  provides the Prism standard-library interface.
 - [lexlean](https://github.com/UOR-Foundation/lexlean)
-  contains the controlled-language source and verification documentation.
 - [prismpm](https://github.com/UOR-Foundation/prismpm)
-  documents model-to-artifact generation and acceptance.
-- [template](https://github.com/UOR-Foundation/template)
-  is a starting point for a Prism application.
-- [UORust](https://github.com/UOR-Foundation/UORust)
-  explores source-linked modeling of Rust Cargo workspaces.
-- [uor-addr](https://github.com/UOR-Foundation/uor-addr)
-  provides content-addressing implementations and guidance.
 
-These links are entry points, not a certification of project readiness.
+### Start building
+
+- [template](https://github.com/UOR-Foundation/template)
+- [UORust](https://github.com/UOR-Foundation/UORust)
+- [uor-addr](https://github.com/UOR-Foundation/uor-addr)
 
 ## Governance and participation
 
-The Foundation publishes contributor guidance, project governance, repository
-standards, lifecycle documentation, and security reporting instructions.
+Foundation policies and contributor instructions are maintained in
+the linked documents.
 
 - [Contributor guide](https://github.com/UOR-Foundation/.github/blob/main/CONTRIBUTING.md)
 - [Governance framework](https://github.com/UOR-Foundation/.github/blob/main/governance/GOVERNANCE.md)
@@ -37,6 +33,3 @@ standards, lifecycle documentation, and security reporting instructions.
 - [Project lifecycle](https://github.com/UOR-Foundation/.github/blob/main/toc/README.md)
 - [Security reporting](https://github.com/UOR-Foundation/.github/blob/main/SECURITY.md)
 - [Community model](https://github.com/UOR-Foundation/community)
-
-Start with the repository closest to your proposed change and follow its
-local issue, contribution, and review instructions.
