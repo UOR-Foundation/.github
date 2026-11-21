@@ -28,9 +28,8 @@ These links are entry points, not a certification of project readiness.
 
 ## Governance and participation
 
-The [Foundation governance repository](https://github.com/UOR-Foundation/.github)
-contains the contributor guide, governance framework, repository standards,
-project lifecycle documentation, and security reporting instructions.
+The Foundation publishes contributor guidance, project governance, repository
+standards, lifecycle documentation, and security reporting instructions.
 
 - [Contributor guide](https://github.com/UOR-Foundation/.github/blob/main/CONTRIBUTING.md)
 - [Governance framework](https://github.com/UOR-Foundation/.github/blob/main/governance/GOVERNANCE.md)
