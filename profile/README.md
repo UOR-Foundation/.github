@@ -1,6 +1,6 @@
 ![UOR Foundation preliminary banner: open systems, research and stewardship; placeholder not approved](readme-banner-PLACEHOLDER.png)
 
-*Illustrative placeholder artwork, pending UOR Foundation brand approval.*
+**Artwork status:** Illustrative placeholder, pending UOR Foundation brand approval.
 
 # UOR Foundation
 
