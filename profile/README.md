@@ -1,58 +1,43 @@
 # UOR Foundation
 
-The UOR Foundation stewards the **Universal Object Reference (UOR) framework**
-and supports related open-source projects. Use this page to find the right
-technical repository and contributor guidance.
+The UOR Foundation stewards the Universal Object Reference (UOR) framework
+and supports related open-source projects.
 
-UOR projects have different scopes and maturity levels. Their own source,
-evidence, and release records establish what is implemented or still
-experimental.
+This page points to project sources and the Foundation's contribution rules.
+Individual repositories establish their own implementation, verification,
+release status, and limitations.
 
-## Explore the projects
+## Technical projects
 
-- **UOR ontology and conformance:** [uor-framework] provides the Rust workspace,
-  ontology exports, and conformance tools.
-- **Prism standard library:** [prism] exposes Foundation and Prism components
-  through a Rust library facade.
-- **Controlled-language models:** [lexlean] contains the language source,
-  examples, and verification documents.
-- **Model-to-artifact generation:** [prismpm] describes its model compilation
-  pipeline and acceptance boundary.
-- **Start a Prism application:** [template] provides the application scaffold
-  and model/conformance workflow.
-- **Rust-to-Prism translation:** [UORust] models Cargo workspaces and
-  distinguishes modeled behavior from unsupported cases.
-- **Typed content addressing:** [uor-addr] supplies addressing implementations
-  and usage guidance.
+- [uor-framework](https://github.com/UOR-Foundation/uor-framework)
+  contains the Rust ontology workspace and conformance tooling.
+- [prism](https://github.com/UOR-Foundation/prism)
+  provides the Prism standard-library interface.
+- [lexlean](https://github.com/UOR-Foundation/lexlean)
+  contains the controlled-language source and verification documentation.
+- [prismpm](https://github.com/UOR-Foundation/prismpm)
+  documents model-to-artifact generation and acceptance.
+- [template](https://github.com/UOR-Foundation/template)
+  is a starting point for a Prism application.
+- [UORust](https://github.com/UOR-Foundation/UORust)
+  explores source-linked modeling of Rust Cargo workspaces.
+- [uor-addr](https://github.com/UOR-Foundation/uor-addr)
+  provides content-addressing implementations and guidance.
 
-These are entry points, not an exhaustive inventory or a common certification.
-Consult each project for its current capabilities, releases, and limitations.
+These links are entry points, not a certification of project readiness.
 
-## Contribute and participate
+## Governance and participation
 
-Foundation process and policy live in the [Foundation policy repo].
+The [Foundation governance repository](https://github.com/UOR-Foundation/.github)
+contains the contributor guide, governance framework, repository standards,
+project lifecycle documentation, and security reporting instructions.
 
-- [Contributor guide] describes the contribution process.
-- [Governance framework] establishes roles, tiers, and change control.
-- [Repository standards] covers naming, tagging, and required files.
-- [Project lifecycle] explains project review and progression.
-- [Security reporting] explains how to report vulnerabilities.
-- [Community model] contains the Foundation's community Prism application.
+- [Contributor guide](https://github.com/UOR-Foundation/.github/blob/main/CONTRIBUTING.md)
+- [Governance framework](https://github.com/UOR-Foundation/.github/blob/main/governance/GOVERNANCE.md)
+- [Repository standards](https://github.com/UOR-Foundation/.github/blob/main/STANDARDS.md)
+- [Project lifecycle](https://github.com/UOR-Foundation/.github/blob/main/toc/README.md)
+- [Security reporting](https://github.com/UOR-Foundation/.github/blob/main/SECURITY.md)
+- [Community model](https://github.com/UOR-Foundation/community)
 
-Select a relevant project, follow its local contribution instructions, and use
-its issue tracker or pull-request process.
-
-[uor-framework]: https://github.com/UOR-Foundation/uor-framework
-[prism]: https://github.com/UOR-Foundation/prism
-[lexlean]: https://github.com/UOR-Foundation/lexlean
-[prismpm]: https://github.com/UOR-Foundation/prismpm
-[template]: https://github.com/UOR-Foundation/template
-[UORust]: https://github.com/UOR-Foundation/UORust
-[uor-addr]: https://github.com/UOR-Foundation/uor-addr
-[Foundation policy repo]: https://github.com/UOR-Foundation/.github
-[Contributor guide]: https://github.com/UOR-Foundation/.github/blob/main/CONTRIBUTING.md
-[Governance framework]: https://github.com/UOR-Foundation/.github/blob/main/governance/GOVERNANCE.md
-[Repository standards]: https://github.com/UOR-Foundation/.github/blob/main/STANDARDS.md
-[Project lifecycle]: https://github.com/UOR-Foundation/.github/blob/main/toc/README.md
-[Security reporting]: https://github.com/UOR-Foundation/.github/blob/main/SECURITY.md
-[Community model]: https://github.com/UOR-Foundation/community
+Start with the repository closest to your proposed change and follow its
+local issue, contribution, and review instructions.
