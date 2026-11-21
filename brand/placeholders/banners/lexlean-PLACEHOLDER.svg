@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="400" viewBox="0 0 1600 400" role="img" aria-labelledby="title description">
+  <title id="title">LEXLEAN provisional README banner</title>
+  <desc id="description">Unapproved UOR concept banner. Do not present as official branding.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08152B"/>
+      <stop offset=".65" stop-color="#113759"/>
+      <stop offset="1" stop-color="#0D2C4D"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="400" fill="url(#background)"/>
+  <g stroke="#9ACDDF" stroke-width="1" opacity=".12">
+    <path d="M0 80H1600M0 160H1600M0 240H1600M0 320H1600M200 0V400M400 0V400M600 0V400M800 0V400M1000 0V400M1200 0V400M1400 0V400"/>
+  </g>
+  <rect x="18" y="18" width="1564" height="364" rx="18" fill="none" stroke="#B3DAE8" stroke-width="2" opacity=".35"/>
+  <rect x="64" y="86" width="80" height="6" rx="3" fill="#66DFED"/>
+  <text x="64" y="185" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#F8FBFF">LEXLEAN</text>
+  <text x="68" y="232" font-family="Arial, sans-serif" font-size="23" fill="#BDDEEC">FORMAL SPECIFICATION</text>
+  <g fill="none" stroke="#91E4ED" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M1027 124L1110 80L1193 124L1110 168Z M1027 169L1110 213L1193 169M1027 214L1110 258L1193 214"/><circle cx="1110" cy="168" r="85"/></g>
+  <rect x="64" y="291" width="380" height="58" rx="9" fill="#09243D" stroke="#21D9E9" stroke-width="2"/>
+  <text x="82" y="329" font-family="Arial, sans-serif" font-size="22" fill="#65E3EC">PLACEHOLDER · NOT APPROVED</text>
+</svg>

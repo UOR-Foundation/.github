@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "status": "PLACEHOLDER_NOT_APPROVED",
+  "asset_count": 21,
+  "source_kind": "original editable SVG design concepts",
+  "related_download": "Full raster and SVG prototype bundle shared separately in ChatGPT conversation; it is NOT part of this repository.",
+  "items": [
+    {
+      "path": "brand/placeholders/banners/foundation-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/banners/uor-framework-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/banners/prism-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/banners/uor-comms-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/banners/lexlean-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/banners/prismpm-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/banners/uor-r4-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/banners/template-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/banners/uorust-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/banners/uor-addr-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/banners/generic-repository-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/icons/source-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/icons/model-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/icons/evidence-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/icons/ontology-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/icons/verification-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/icons/conformance-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/icons/messaging-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/icons/research-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/icons/protocol-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    },
+    {
+      "path": "brand/placeholders/icons/docs-PLACEHOLDER.svg",
+      "status": "PLACEHOLDER_NOT_APPROVED"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">protocol placeholder icon</title>
+  <desc id="desc">Unapproved geometric concept. For internal design review only.</desc>
+  <rect width="256" height="256" rx="34" fill="#0A203E"/>
+  <g fill="none" stroke="#86E0EA" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><path d="M57 72H201V158H57Z"/><path d="M89 72V158M166 72V158"/></g>
+  <text x="128" y="233" font-family="Arial, sans-serif" font-size="13" fill="#DEEAF3" text-anchor="middle">PLACEHOLDER</text>
+</svg>
