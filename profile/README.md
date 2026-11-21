@@ -11,11 +11,12 @@
 The UOR Foundation stewards the Universal Object Reference (UOR) framework and
 supports related open-source projects.
 
-**Why it matters:** Digital information often has different names and descriptions
-across programs. That makes it harder to tell whether two systems are working
-with the same object or whether a technical claim has been checked. UOR explores
-shared rules for identifying and describing digital objects. The Foundation
-keeps its projects, decisions, and contribution paths accessible to the public.
+**Why it matters:** Digital information often has different names and
+descriptions across programs. That makes it harder to tell whether two systems
+are working with the same object or whether a technical claim has been checked.
+UOR explores shared rules for identifying and describing digital objects. The
+Foundation keeps its projects, decisions, and contribution paths accessible to
+the public.
 
 The links below are starting points, not claims that every project is released,
 certified, or production-ready. Each repository defines its own current
@@ -55,14 +56,14 @@ capabilities, limitations, and verification evidence.
 
 - [UOR-R4](https://github.com/UOR-Foundation/uor-r4): experimental geometric
   language modeling. Pre-alpha, not a conversational product.
-- [UOR Comms](https://github.com/UOR-Foundation/uor-comms): experimental
-  peer messaging; not a production-ready encrypted messenger.
+- [UOR Comms](https://github.com/UOR-Foundation/uor-comms): experimental peer
+  messaging; not a production-ready encrypted messenger.
 
 ## Governance and participation
 
-**Your first contribution:** choose a project above, read its README and
-current limitations, then review its open issues and contribution rules.
-For an organization-wide policy change, start with the documents below.
+**Your first contribution:** choose a project above, read its README and current
+limitations, then review its open issues and contribution rules. For an
+organization-wide policy change, start with the documents below.
 
 Foundation policies and contributor instructions are maintained in the linked
 documents.

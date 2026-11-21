@@ -13,13 +13,14 @@ This is the main entry point for the UOR Foundation on GitHub.
 If you contribute in open-source ecosystems, this should feel familiar: clear
 governance, clear lifecycle, clear ways to contribute.
 
-**Why the Foundation exists:** Common rules make it easier to understand
-which software projects share the UOR model, who maintains them, and what
-evidence supports their claims. This repository publishes the governance,
-contribution, and lifecycle rules that keep those decisions visible.
+**Why the Foundation exists:** Common rules make it easier to understand which
+software projects share the UOR model, who maintains them, and what evidence
+supports their claims. This repository publishes the governance, contribution,
+and lifecycle rules that keep those decisions visible.
 
-**Start here:** choose a [technical project](profile/README.md#technical-repositories)
-for code, or read [How to Participate](#how-to-participate) to contribute.
+**Start here:** choose a
+[technical project](profile/README.md#technical-repositories) for code, or read
+[How to Participate](#how-to-participate) to contribute.
 
 ## Contents
 
