@@ -6,15 +6,13 @@ UOR projects serve different purposes and are at different stages. Each reposito
 
 ## Find your starting point
 
-| You want to… | Start with | What you will find |
-| --- | --- | --- |
-| Understand the UOR ontology | [uor-framework](https://github.com/UOR-Foundation/uor-framework) | The Rust workspace for the UOR ontology, its exported representations, and conformance tools. |
-| Explore the Prism standard library | [prism](https://github.com/UOR-Foundation/prism) | A Rust library façade exposing Foundation and Prism components. |
-| Read or work with controlled-language models | [lexlean](https://github.com/UOR-Foundation/lexlean) | The LexLean source, examples, language contract, and verification evidence. |
-| Explore model-to-artifact generation | [prismpm](https://github.com/UOR-Foundation/prismpm) | PrismPM's model compilation workflow, generated-artifact architecture, and acceptance documentation. |
-| Begin a Prism application | [template](https://github.com/UOR-Foundation/template) | The starting template, model and conformance structure, and development instructions. |
-| Explore Rust-to-Prism translation | [UORust](https://github.com/UOR-Foundation/UORust) | Source-linked modeling of Cargo workspaces, with explicit unsupported cases and proof boundaries. |
-| Work with typed content addressing | [uor-addr](https://github.com/UOR-Foundation/uor-addr) | Content-addressing implementations and usage guidance. |
+- **Understand the UOR ontology:** [uor-framework](https://github.com/UOR-Foundation/uor-framework) is the Rust workspace for the ontology, exported representations, and conformance tools.
+- **Explore the Prism standard library:** [prism](https://github.com/UOR-Foundation/prism) is the library façade exposing Foundation and Prism components.
+- **Work with controlled-language models:** [lexlean](https://github.com/UOR-Foundation/lexlean) contains LexLean source, examples, the language contract, and verification evidence.
+- **Explore model-to-artifact generation:** [prismpm](https://github.com/UOR-Foundation/prismpm) documents the model compilation workflow and acceptance boundaries.
+- **Begin a Prism application:** [template](https://github.com/UOR-Foundation/template) provides the starting template, model and conformance structure, and development instructions.
+- **Explore Rust-to-Prism translation:** [UORust](https://github.com/UOR-Foundation/UORust) documents Cargo-workspace modeling, unsupported cases, and proof boundaries.
+- **Work with typed content addressing:** [uor-addr](https://github.com/UOR-Foundation/uor-addr) contains addressing implementations and usage guidance.
 
 These are entry points, not an exhaustive inventory or a shared certification statement. Follow each repository's README, release information, and verification records for its current capabilities.
 
