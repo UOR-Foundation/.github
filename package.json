@@ -3,7 +3,7 @@
   "private": true,
   "description": "Pinned linters for the organization's community health files",
   "scripts": {
-    "lint": "prettier --check \"**/*.md\" && markdownlint-cli2 \"**/*.md\" || (prettier profile/README.md | diff -u profile/README.md -; exit 1)"
+    "lint": "prettier --check \"**/*.md\" && markdownlint-cli2 \"**/*.md\""
   },
   "devDependencies": {
     "markdownlint-cli2": "0.24.0",
