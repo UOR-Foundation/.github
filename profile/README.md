@@ -30,8 +30,7 @@ Consult each project for its current capabilities, releases, and limitations.
 
 ## Contribute and participate
 
-Foundation process and policy live in the [organization's governance
-repository].
+Foundation process and policy live in the [Foundation policy repo].
 
 - [Contributor guide] describes the contribution process.
 - [Governance framework] establishes roles, tiers, and change control.
@@ -50,7 +49,7 @@ its issue tracker or pull-request process.
 [template]: https://github.com/UOR-Foundation/template
 [UORust]: https://github.com/UOR-Foundation/UORust
 [uor-addr]: https://github.com/UOR-Foundation/uor-addr
-[organization's governance repository]: https://github.com/UOR-Foundation/.github
+[Foundation policy repo]: https://github.com/UOR-Foundation/.github
 [Contributor guide]: https://github.com/UOR-Foundation/.github/blob/main/CONTRIBUTING.md
 [Governance framework]: https://github.com/UOR-Foundation/.github/blob/main/governance/GOVERNANCE.md
 [Repository standards]: https://github.com/UOR-Foundation/.github/blob/main/STANDARDS.md
