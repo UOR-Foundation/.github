@@ -1,4 +1,10 @@
+![UOR FOUNDATION visual banner: OPEN SYSTEMS · RESEARCH · STEWARDSHIP](readme-banner.svg)
+
 # UOR Foundation
+
+[![Profile lint](https://github.com/UOR-Foundation/.github/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/UOR-Foundation/.github/actions/workflows/lint.yml)
+[![Governance](https://img.shields.io/badge/policy-governance-718096)](../governance/GOVERNANCE.md)
+[![Security reporting](https://img.shields.io/badge/security-reporting-718096)](../SECURITY.md)
 
 The UOR Foundation stewards the Universal Object Reference (UOR) framework and
 supports related open-source projects.
@@ -6,6 +12,13 @@ supports related open-source projects.
 The links below are starting points, not claims that every project is released,
 certified, or production-ready. Each repository defines its own current
 capabilities, limitations, and verification evidence.
+
+## Contents
+
+- [Technical repositories](#technical-repositories)
+  - [Framework and modeling](#framework-and-modeling)
+  - [Start building](#start-building)
+- [Governance and participation](#governance-and-participation)
 
 ## Technical repositories
 
