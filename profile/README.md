@@ -9,6 +9,8 @@ approval.
 [![Governance](https://img.shields.io/badge/policy-governance-718096)](../governance/GOVERNANCE.md)
 [![Security reporting](https://img.shields.io/badge/security-reporting-718096)](../SECURITY.md)
 
+[Projects](#technical-repositories) · [Policy](#governance-and-participation)
+
 The UOR Foundation stewards the Universal Object Reference (UOR) framework and
 supports related open-source projects.
 

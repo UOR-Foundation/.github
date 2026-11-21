@@ -9,6 +9,8 @@ approval.
 [![Governance](https://img.shields.io/badge/policy-governance-718096)](governance/GOVERNANCE.md)
 [![Security](https://img.shields.io/badge/security-reporting-718096)](SECURITY.md)
 
+[Projects](profile/README.md) · [Participate](#how-to-participate)
+
 This is the main entry point for the UOR Foundation on GitHub.
 
 If you contribute in open-source ecosystems, this should feel familiar: clear
