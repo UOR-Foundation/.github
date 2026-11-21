@@ -9,10 +9,7 @@ approval.
 [![Governance](https://img.shields.io/badge/policy-governance-718096)](governance/GOVERNANCE.md)
 [![Security](https://img.shields.io/badge/security-reporting-718096)](SECURITY.md)
 
-**Navigate:** [What it is](#what-uor-foundation-is) ·
-[How it works](#how-the-foundation-works) · [Repository layout](#folder-structure) ·
-[Contribute](#how-to-participate) · [Fast path](#fast-path) ·
-[Find documents](#need-to-go-to) · [Foundation links](#foundation-links)
+[Projects](profile/README.md) · [Participate](#how-to-participate)
 
 This is the main entry point for the UOR Foundation on GitHub.
 
@@ -27,6 +24,16 @@ and lifecycle rules that keep those decisions visible.
 **Start here:** choose a
 [technical project](profile/README.md#technical-repositories) for code, or read
 [How to Participate](#how-to-participate) to contribute.
+
+## Contents
+
+- [What UOR Foundation Is](#what-uor-foundation-is)
+- [How the Foundation Works](#how-the-foundation-works)
+- [Folder Structure](#folder-structure)
+- [How to Participate](#how-to-participate)
+- [Fast Path](#fast-path)
+- [Need to Go To](#need-to-go-to)
+- [Foundation Links](#foundation-links)
 
 ## What UOR Foundation Is
 
