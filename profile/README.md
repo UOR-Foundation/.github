@@ -1,11 +1,11 @@
 # UOR Foundation
 
-The UOR Foundation stewards the Universal Object Reference (UOR)
-framework and supports related open-source projects.
+The UOR Foundation stewards the Universal Object Reference (UOR) framework and
+supports related open-source projects.
 
-The links below are starting points, not claims that every project is
-released, certified, or production-ready. Each repository defines its
-own current capabilities, limitations, and verification evidence.
+The links below are starting points, not claims that every project is released,
+certified, or production-ready. Each repository defines its own current
+capabilities, limitations, and verification evidence.
 
 ## Technical repositories
 
@@ -24,8 +24,8 @@ own current capabilities, limitations, and verification evidence.
 
 ## Governance and participation
 
-Foundation policies and contributor instructions are maintained in
-the linked documents.
+Foundation policies and contributor instructions are maintained in the linked
+documents.
 
 - [Contributor guide](https://github.com/UOR-Foundation/.github/blob/main/CONTRIBUTING.md)
 - [Governance framework](https://github.com/UOR-Foundation/.github/blob/main/governance/GOVERNANCE.md)
