@@ -1,0 +1,17 @@
+{
+  "status": "PLACEHOLDER_NOT_APPROVED",
+  "scope": "Draft presentation tokens, not the UOR standard or approved Foundation palette",
+  "colors": {
+    "navy": "#08152B",
+    "cyan": "#66DFED",
+    "silver": "#F8FBFF",
+    "accent": "#91E4ED"
+  },
+  "bannerSize": {
+    "width": 1600,
+    "height": 400
+  },
+  "fontStyle": "Neutral sans serif, pending identity owner review",
+  "statusLabel": "PLACEHOLDER · NOT APPROVED",
+  "approvalRequired": true
+}
