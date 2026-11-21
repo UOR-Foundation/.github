@@ -1,6 +1,7 @@
 ![UOR Foundation provisional banner: open systems and research; illustrative only](profile/readme-banner-PLACEHOLDER.png)
 
-**Artwork status:** Illustrative placeholder, pending UOR Foundation brand approval.
+**Artwork status:** Illustrative placeholder, pending UOR Foundation brand
+approval.
 
 # UOR Foundation - Start Here
 
